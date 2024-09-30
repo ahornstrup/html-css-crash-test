@@ -22,7 +22,7 @@ header{
   left: 0;
   z-index: 1;
 }
-header h1{
+header h1 a{
   /* Insert a color property and set it's value to white  */
   /* Insert a border property and set it's value to 8px solid white  */
   /* Insert a display property and set it's value to inline-block  */
@@ -33,6 +33,7 @@ header h1{
   display: inline-block;
   padding: 6px 12px;
   border-radius: 36px;
+  text-decoration: none;
 }
 .banner{
   position: relative;
